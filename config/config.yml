@@ -1,0 +1,12 @@
+thresholds:
+  min_liquidity: 50000    # USD
+  max_age_hours: 24
+  min_volume_spike: 2.0   # 2x average volume
+  max_fdv: 1000000        # 1M USD
+
+chains:
+  - ethereum
+  - solana
+  - base
+
+scan_interval: 300  # 5 minutes
